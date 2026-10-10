@@ -18,12 +18,13 @@ export default function TensorHero() {
                 The Agentic Development Environment for the ambitious
               </h1>
               <div className="flex shrink-0 justify-start md:justify-end md:pb-1">
-                <a
-                  href="#waitlist"
-                  className="inline-flex min-h-[2.2rem] items-center rounded-full bg-black px-4 text-[0.92rem] font-medium tracking-[-0.005em] text-white transition-colors hover:bg-black/80"
+                <button
+                  disabled
+                  aria-disabled="true"
+                  className="inline-flex min-h-[2.2rem] cursor-not-allowed items-center rounded-full bg-black/10 px-4 text-[0.92rem] font-medium tracking-[-0.005em] text-black/40"
                 >
-                  Join waitlist
-                </a>
+                  Download
+                </button>
               </div>
             </div>
           </section>
