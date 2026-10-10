@@ -13,10 +13,6 @@ export default function TensorHero() {
         </div>
         <div className="relative z-10 flex flex-none flex-col justify-center gap-6 pt-8 md:min-h-0 md:flex-1 md:gap-0 md:pt-20">
           <section className="relative mx-auto w-full max-w-5xl shrink-0 px-5 pb-10 pt-10 text-left md:px-8 md:pb-12 md:pt-12">
-            <span
-              aria-hidden="true"
-              className="pointer-events-none absolute inset-x-5 top-0 z-10 h-px bg-black/25 md:inset-x-8"
-            />
             <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
               <h1 className="max-w-3xl text-balance text-3xl font-normal leading-[1.15] tracking-tight text-black sm:text-4xl">
                 The Agentic Development Environment for the ambitious
